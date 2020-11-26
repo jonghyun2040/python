@@ -1,0 +1,78 @@
+Python 3.8.5 (default, Sep  3 2020, 21:29:08) [MSC v.1916 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> Hello world
+SyntaxError: invalid syntax
+>>> print("Hello World")
+Hello World
+>>> print("대신증권")
+대신증권
+>>> for i in range(3):
+	print("대신증권")
+
+	
+대신증권
+대신증권
+대신증권
+>>> def print_ntime():
+	print("대신증권")
+
+	
+>>> def print_ntime(n):
+	print("대신증권")
+
+	
+>>> print_ntime(3)
+대신증권
+>>> print_ntime(2)
+대신증권
+>>> def print_ntime(n):
+	for i range(n):
+		
+SyntaxError: invalid syntax
+>>> print(:
+      
+SyntaxError: invalid syntax
+>>> 
+>>> def print_ntime(n):
+	for i in range(n):
+		print("대신증권")
+
+		
+>>> print_ntime(3)
+대신증권
+대신증권
+대신증권
+>>> def cal_upper(price):
+	pass
+
+>>> def cal_upper(price):
+	increment = price * 0.3
+
+	
+>>> cal_upper(10000)
+>>> def cal_upper(price):
+	increment = price * 0.3
+	upper_price = price + increment
+
+	
+>>> cal_upper(10000)
+>>> price
+Traceback (most recent call last):
+  File "<pyshell#36>", line 1, in <module>
+    price
+NameError: name 'price' is not defined
+>>> def cal_upper(price):
+	increment = price * 0.3
+	upper_price = price + increment
+	return upper_price
+
+>>> cal_upper(10000)
+13000.0
+>>> def cal_upper_lower(price):
+	offset = price * 0.3
+	upper = price + offset
+	lower = price - offset
+	return (upper, lower)
+
+>>> cal_upper_lower(10000)
+(13000.0, 7000.0)
